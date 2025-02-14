@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Best Travel Website | Explore The World</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav id="navbar">
+      <div id="logo">
+        <img src="logo.travel.webp" alt="" />
+      </div>
+
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+      <ul id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#signin">Sign-in</a></li>
+      </ul>
+    </nav>
+
+    <section id="home">
+      <h1 class="h-primary">Welcome to Travel Explorer</h1>
+      <p>
+        Discover breathtaking destinations, plan your perfect trip, and explore
+        the world with ease.
+      </p>
+      <button class="btn">Start Your Journey</button>
+    </section>
+
+    <section class="services-container">
+      <h1 class="h-primary center">Our Services</h1>
+      <div id="services">
+        <div class="box">
+          <img src="Z.jpg" alt="" height="50px" width="50px" />
+          <h2 class="h-secondary">Flight Booking</h2>
+          <p>"Book your flight hassle-free and explore the world with the best deals!" ✈️🌍</p>
+        </div>
+        <div class="box">
+          <img src="X.jpg" alt="" height="50px" width="50px" />
+          <h2 class="h-secondary">Hotel Reservations</h2>
+          <p>"Find your perfect stay with the best hotel deals, anywhere, anytime!" 🏨✨</p>
+        </div>
+        <div class="box">
+          <img src="Y.jpg" alt="" height="50px" width="50px" />
+          <h2 class="h-secondary">Tour Packages</h2>
+          <p>"Discover exciting tour packages for your next unforgettable adventure!" 🌍✈️🏝️</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="about-container">
+        <div class="about-text">
+          <h3>ABOUT US</h3>
+          <h2>Adventure Travel Company & Small Group Tours</h2>
+          <p>
+            Hands down the most special and amazing trip I have done to date,
+            and coming from a well-seasoned traveler this is saying a lot!
+          </p>
+        </div>
+        <div class="about-image">
+          <img src="J.jpg" alt="Travel Adventure" />
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h1 class="h-primary-center">Contact Us</h1>
+      <div id="contact-box">
+        <form action="">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              name="Name"
+              id="name"
+              placeholder="Enter Your Name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="name">Email</label>
+            <input
+              type="email"
+              name="Name"
+              id="name"
+              placeholder="Enter Your Email"
+            />
+          </div>
+          <div class="form-group">
+            <label for="name">Phone Number</label>
+            <input
+              type="Phone"
+              name="Name"
+              id="name"
+              placeholder="Enter Your Phone Number"
+            />
+          </div>
+          <div class="form-group">
+            <label for="name">Message</label>
+            <textarea
+              name="Message"
+              id="Message"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <button class="btn">Submit</button>
+
+        </form>
+      </div>
+    </section>
+    <section id="signin">
+      <h1 class="h-primary center">Sign In</h1>
+      <div id="signin-box">
+          <form action="signin.php" method="post">
+              <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+              </div>
+              <div class="form-group">
+                  <label for="password">Password</label>
+                  <input type="password" name="password" id="password" placeholder="Enter Your Password" required>
+              </div>
+              <button type="submit" class="btn">Sign In</button>
+          </form>
+          <p>Don't have an account? <a href="">Sign Up</a></p>
+      </div>
+  </section>
+
+    <footer>
+      <div class="center">
+        Copyright &copy; Travel Explorer. All Rights Reserved.
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
